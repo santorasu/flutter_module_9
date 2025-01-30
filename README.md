@@ -7,6 +7,8 @@ This project is part of **Module 9**, where I learned about **TextFormField and 
 - **TextFormField** usage  
 - **Form validation** techniques  
 - **Custom validators**  
-- **Handling user input**  
+- **Handling user input**
+- **ThemeData
+- **GridView
 
 ## 📂 Project Structure  
