@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.red, foregroundColor: Colors.white))),
       title: 'Module 9 Wrap',
-      home: WrapExample(),
+      home: LayoutBuilderOstad(),
     );
   }
 }
