@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'module_9_class_1.dart';
+import 'module_9_class_2.dart';
 
 void main() {
   runApp(const MyApp()); // Fixed class name capitalization
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.red, foregroundColor: Colors.white))),
       title: 'Module 9 Wrap',
-      home: LayoutBuilderOstad(),
+      home: ModuleNine(),
     );
   }
 }

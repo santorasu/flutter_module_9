@@ -59,13 +59,19 @@ class LayoutBuilderOstad extends StatelessWidget {
       ),
       body: LayoutBuilder(
         builder: (context, constraints) {
-          if(constraints.maxWidth>1200){
+          if(constraints.maxWidth>600){
             return Center(
-              child: Text("This is table Layout"),
+              child: Text("This is table Layout",style: TextStyle(
+                fontSize: 30,
+                color: Colors.blue
+              ),),
             );
           }else{
             return Center(
-              child: Text("This is column Layout"),
+              child: Text("This is column Layout",style: TextStyle(
+                fontSize: 30,
+                color: Colors.amber
+              ),),
             );
           }
         }),
