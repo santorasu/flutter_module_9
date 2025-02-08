@@ -12,3 +12,7 @@ This project is part of **Module 9**, where I learned about **TextFormField and 
 - **GridView
 - MediaQueary
 - Wrap
+- Aspect Ratio
+- Expanded
+- FractionallySizedBox
+- Stack
